@@ -1,0 +1,55 @@
+# ============================================================
+# 저장소에 올리지 않는 것
+# ============================================================
+
+# 수업 제공 Unity 프로젝트 (수정하지 않음, 334MB)
+AI_ML_Unity_Final/
+
+# ---- 개인정보 / 용량: 영상은 전부 제외 (얼굴 포함) ----
+*.mp4
+*.avi
+*.mov
+AI_ML_Python_Final/final_project/data/raw_videos/
+AI_ML_Python_Final/final_project/data/handsign_videos/
+AI_ML_Python_Final/final_project/data/handsign_test_videos/
+AI_ML_Python_Final/final_project/data/output/
+
+# ---- 스크립트로 다시 만들 수 있는 중간 결과 (그래프/리포트 폴더 _report 는 올림) ----
+AI_ML_Python_Final/final_project/data/handsign_processed/*
+!AI_ML_Python_Final/final_project/data/handsign_processed/_report/
+AI_ML_Python_Final/final_project/data/handsign_dataset/*.npz
+AI_ML_Python_Final/final_project/data/processed/
+AI_ML_Python_Final/final_project/data/dataset/
+
+# ---- 보고서(PPT) 관련 파일 전체 제외: 생성 스크립트, 캡처, pptx ----
+AI_ML_Python_Final/final_project/report/
+*.pptx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- Unity (HandSignViewer): 에디터가 자동 생성하는 폴더 ----
+HandSignViewer/[Ll]ibrary/
+HandSignViewer/[Tt]emp/
+HandSignViewer/[Oo]bj/
+HandSignViewer/[Bb]uild/
+HandSignViewer/[Bb]uilds/
+HandSignViewer/[Ll]ogs/
+HandSignViewer/[Uu]ser[Ss]ettings/
+HandSignViewer/.vs/
+HandSignViewer/*.csproj
+HandSignViewer/*.sln
+HandSignViewer/*.user
+HandSignViewer/*.pidb
+HandSignViewer/*.booproj
+
+# ---- OS / 에디터 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+~$*.pptx

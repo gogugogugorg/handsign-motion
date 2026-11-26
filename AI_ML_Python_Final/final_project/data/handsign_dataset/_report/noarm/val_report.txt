@@ -1,0 +1,37 @@
+Features: hand only (153)
+Best epoch: 9
+Frame accuracy: 0.961
+Clip accuracy (majority vote): 1.000 (16/16)
+Frame accuracy with one hand removed: 0.898
+
+[normal]
+class     frames    acc  most confused with
+bird          35  97.1%  ram (3%)
+boar          35 100.0%  -
+dog           35 100.0%  -
+dragon        35 100.0%  -
+hare          35 100.0%  -
+horse         35 100.0%  -
+monkey        35 100.0%  -
+none         105  81.9%  horse (6%)
+ox            35 100.0%  -
+ram           35 100.0%  -
+rat           35  94.3%  snake (6%)
+snake         69 100.0%  -
+tiger         35 100.0%  -
+
+[one hand removed]
+class     frames    acc  most confused with
+bird          35  91.4%  ox (6%)
+boar          35  65.7%  dog (34%)
+dog           35 100.0%  -
+dragon        35 100.0%  -
+hare          35 100.0%  -
+horse         35 100.0%  -
+monkey        35 100.0%  -
+none         105  73.3%  horse (10%)
+ox            35 100.0%  -
+ram           35 100.0%  -
+rat           35  62.9%  snake (29%)
+snake         69  98.6%  bird (1%)
+tiger         35 100.0%  -

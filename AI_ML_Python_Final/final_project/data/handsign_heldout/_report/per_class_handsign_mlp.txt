@@ -1,0 +1,3 @@
+handsign_mlp.pth  (conf 0.8, hold 0.3s)
+class    clips  clip ok  frames(both)  acc(both)  most confused with
+none        35   34/35             40      75.0%  hare (25%)

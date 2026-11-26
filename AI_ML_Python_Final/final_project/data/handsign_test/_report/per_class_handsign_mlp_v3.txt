@@ -1,0 +1,15 @@
+handsign_mlp_v3.pth  (conf 0.8, hold 0.3s)
+class    clips  clip ok  frames(both)  acc(both)  most confused with
+bird         3    0/3             171      10.5%  none (89%)
+boar         3    3/3             173      99.4%  none (1%)
+dog          3    2/3             163      62.6%  boar (37%)
+dragon       3    3/3             163      97.5%  none (1%)
+hare         3    3/3             163      94.5%  tiger (3%)
+horse        3    3/3             170     100.0%  -
+monkey       3    2/3             166      65.7%  hare (33%)
+none         4    4/4               0       0.0%  -
+ox           3    2/3             166      49.4%  hare (38%)
+ram          3    2/3             169      63.3%  tiger (32%)
+rat          4    0/4             224       0.0%  ram (69%)
+snake        3    2/3             171      69.6%  none (30%)
+tiger        4    2/4             118      74.6%  none (20%)

@@ -1,0 +1,9 @@
+Provided post-processing (foot-based height correction) applied to pose_world
+clips: 280 (seal clips: 105)
+
+foot visibility (mean of landmarks 31, 32): mean 0.004, clips with mean > 0.5: 0 / 280
+estimated ground (min foot y) std within clip: median 9.9 cm
+hip height after correction: mean 0.19 m, within-clip std median 7.9 cm
+wrist vertical jitter (seal clips, |2nd diff|): raw 11.26 mm/frame²  → corrected 70.66 mm/frame²  (+528%)
+clips where correction increased wrist jitter: 105 / 105
+joints clamped to y=0: 14.71% of joint-frames
